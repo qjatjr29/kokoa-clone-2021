@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KoKoa Music - Kokoa Clone</title>
+  </head>
+  <body class="kokoa-music__playlist">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__clock"></span>
+      </div>
+      <div class="status-bar__column"></div>
+      <div class="status-bar__column">
+        <i class="fas fa-signal"></i>
+        <span>LTE </span>
+        <i class="fas fa-battery-quarter fa-lg"></i>
+      </div>
+    </div>
+    <div class="kokoa-music__playlist-body">
+      <header class="alt-header">
+        <div class="alt-header__column">
+          <span class="alt-header__column-set">설정</span>
+        </div>
+        <div class="alt-header__column">
+          <span class="alt-header__column-playlist">재생목록 </span>
+          <i class="fas fa-arrow-circle-down"></i>
+        </div>
+        <div class="alt-header__column">
+          <a href="kokoa_music.html">
+            <i class="fas fa-chevron-down fa-lg"></i
+          ></a>
+        </div>
+      </header>
+
+      <main class="kokoa-music__playlist-main">
+        <div class="kokoa-music__playlist-search">
+          <i class="fas fa-search"></i>
+          <span>곡명 또는 아티스트 명을 입력하세요.</span>
+        </div>
+        <div class="kokoa-music__playlist-main__header">
+          <div class="kokoa-music__playlist-main__header-text">
+            <span>선택 곡 듣기</span>
+            <i class="fas fa-toggle-on"></i>
+          </div>
+          <div class="kokoa-music__playlist-main__header-text">
+            <span>내 정렬 순</span>
+            <i class="fas fa-sort-down fa-lg"></i>
+          </div>
+          <div class="kokoa-music__playlist-main__header-text">
+            <span>편집</span>
+          </div>
+        </div>
+        <div class="kokoa-music__playlist-musics">
+          <div class="music-chart__musics">
+            <div class="music-playlist__musics-column">
+              <img src="photo/로제.PNG" class="music-chart__musics-img" />
+            </div>
+            <div class="music-playlist__musics-column">
+              <div class="music-playlist__musics-text">
+                <h4 class="music-playlist__musics-title">Gone</h4>
+                <h6 class="music-playlist__musics-artist">로제 (ROSÉ)</h6>
+              </div>
+            </div>
+            <div class="music-playlist__musics-column">
+              <div>
+                <span> 03:27 </span>
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+            </div>
+          </div>
+          <div class="music-chart__musics music-playing">
+            <div class="music-playlist__musics-column">
+              <img src="photo/빈지노.PNG" class="music-chart__musics-img" />
+            </div>
+            <div class="music-playlist__musics-column">
+              <div class="music-playlist__musics-text">
+                <h4 class="music-playlist__musics-title">If I Die Tomorrow</h4>
+                <h6 class="music-playlist__musics-artist">빈지노(Beenzino)</h6>
+              </div>
+            </div>
+            <div class="music-playlist__musics-column">
+              <div class="music-playlist__musics-column-playing">
+                <div class="playing_bars"></div>
+                <div class="playing_bars"></div>
+                <div class="playing_bars"></div>
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+            </div>
+          </div>
+          <div class="music-chart__musics">
+            <div class="music-playlist__musics-column">
+              <img src="photo/postmalone.PNG" class="music-chart__musics-img" />
+            </div>
+            <div class="music-playlist__musics-column">
+              <div class="music-playlist__musics-text">
+                <h4 class="music-playlist__musics-title">Goodbyes</h4>
+                <h6 class="music-playlist__musics-artist">Post Malone</h6>
+              </div>
+            </div>
+            <div class="music-playlist__musics-column">
+              <div>
+                <span> 02:55 </span>
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+            </div>
+          </div>
+          <div class="music-chart__musics">
+            <div class="music-playlist__musics-column">
+              <img src="photo/wifey.PNG" class="music-chart__musics-img" />
+            </div>
+            <div class="music-playlist__musics-column">
+              <div class="music-playlist__musics-text">
+                <h4 class="music-playlist__musics-title">Wifey</h4>
+                <h6 class="music-playlist__musics-artist">CAMO</h6>
+              </div>
+            </div>
+            <div class="music-playlist__musics-column">
+              <div>
+                <span> 02:04 </span>
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+            </div>
+          </div>
+          <div class="music-chart__musics">
+            <div class="music-playlist__musics-column">
+              <img src="photo/interlude.PNG" class="music-chart__musics-img" />
+            </div>
+            <div class="music-playlist__musics-column">
+              <div class="music-playlist__musics-text">
+                <h4 class="music-playlist__musics-title">Interlude</h4>
+                <h6 class="music-playlist__musics-artist">창모(CHANGMO)</h6>
+              </div>
+            </div>
+            <div class="music-playlist__musics-column">
+              <div>
+                <span> 02:49 </span>
+                <i class="fas fa-ellipsis-v"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <div class="music-playlist-btn">
+      <div class="music-playlist-btn_text">
+        <h4 class="music-play-btn_title">If I Die Tomorrow</h4>
+        <h3 class="music-play-btn_artist">빈지노(Beenzino)</h3>
+      </div>
+      <div class="music-playlist-btn_icon">
+        <i class="fas fa-pause fa-2x"></i>
+        <img src="photo/빈지노.PNG" />
+      </div>
+    </div>
+    <div id="no-mobile">
+      <span>Your screen is too big !!</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/188f7f5ed5.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="clock.js"></script>
+  </body>
+</html>

@@ -23,6 +23,7 @@
 @import "screens/chat.css";
 @import "screens/kokoa_music.css";
 @import "screens/playlist.css";
+@import "screens/playing.css";
 
 body {
   color: #2e363e;

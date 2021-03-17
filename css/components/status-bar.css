@@ -5,14 +5,14 @@
   position: fixed;
   top: 0;
   width: 100%;
-  
+
   box-sizing: border-box;
 }
 .status-bar__column {
   width: 33%;
 }
 
-.status-bar__column span{
+.status-bar__column span {
   margin: 0px 15px;
 }
 /* .status-bar__column:first-child span {
@@ -34,8 +34,6 @@
   align-items: center;
 }
 
-.status-bar__column .fa-battery-quarter{
+.status-bar__column .fa-battery-quarter {
   margin-right: 10px;
 }
-
-
